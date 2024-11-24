@@ -1,0 +1,258 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #d9d9d9;
+}
+
+.header{
+  position:relative;
+  top: 0;
+  left: 0;
+  width: 79.5%;
+  padding: 20px 10%;
+  background:#333;
+  display: flex;
+  justify-content: space-between;
+  align-items:  center;
+  z-index: 100;
+  
+  
+}
+.logo{
+font-size: 25px;
+color: #ededed;
+text-decoration: none;
+font-weight: 600;
+}
+.navbar a{
+font-size: 18px;
+color: #ededed;
+text-decoration: none;
+font-weight: 500;
+margin-left: 35px;
+transition: 2s;
+}
+.navbar a:hover,
+.navbar a.active{
+color: #c6ac8f;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+#hero {
+    background-color:#284b63;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+#about {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+}
+.profile {
+  border-radius: 50%;
+  width: 250px;
+  height: 350px;
+  margin-bottom: 1em;
+}
+#header {
+    background: #0f3a58;
+    color: #00abf0;
+    padding: 1.5em;
+    text-align: center;
+  }
+  
+  #header h1 {
+    font-size: 2.5em;
+    color: #fff;
+  }
+  h2{
+    color:#fff
+  }
+  
+  #header p {
+    font-size: 1.2em;
+    margin-top: 0.5em;
+  }
+  
+  /* About Section */
+  #hero {
+    background-color: #284b63;
+    padding: 40px; /* Smaller padding to reduce section size */
+    text-align: left; /* Align text to the left */
+    margin-bottom: 20px;
+}
+
+.hero-container {
+    display: flex; /* Flex layout to align image and text side by side */
+    align-items: center; /* Center image and text vertically */
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 350px; /* Smaller size for the profile image */
+    height: 450px; /* Smaller height for consistency */
+    margin-right: 80px; /* Space between image and text */
+}
+
+.hero-content {
+    color: #fff;
+}
+.hero-content p{
+  color:#fefae0;
+  font-weight: bolder;
+}
+  
+  /* Skills Section */
+  #skills {
+    padding: 2em 0;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+#skills h2 {
+    font-size: 2.5em;
+    color: #c6ac8f;
+    margin-bottom: 1.5em;
+}
+
+.grid {
+    display: flex;
+    justify-content: space-between; /* Ensure equal spacing between items */
+    gap: 0px; /* Space between cards */
+    padding: 0 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #3c6e71;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 1 1 16%; /* Flex-grow, flex-shrink, and flex-basis for equal sizing */
+    max-width: 200px;
+    height: 200px;
+}
+
+.card h3 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    color: #fff;
+}
+
+.card p {
+    font-size: 1.2em;
+    color: #c6ac8f;
+}
+  /* Projects Section */
+  #projects {
+    padding: 2em;
+    text-align: center;
+    background: #081b29;
+    color: #00abf0;
+  }
+  
+  .project {
+    margin: 1em 0;
+  }
+  
+  .project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .project h3 {
+    font-size: 1.5em;
+    margin-top: 0.5em;
+  }
+  
+  /* Resume Section */
+  #resume {
+    padding: 2em;
+    text-align: center;
+    background: #0f3a58;
+  }
+  
+  #resume a {
+    font-size: 1.2em;
+    color: #00abf0;
+    text-decoration: none;
+    padding: 0.3em 1em;
+    border: 2px solid #00abf0;
+    border-radius: 4px;
+    transition: 0.3s;
+  }
+  
+  #resume a:hover {
+    background: #081b29;
+    color: white;
+    
+  }
+  
+  /* Contact Section */
+  #project {
+    background: #284b63;
+    padding: 2em;
+    text-align: center;
+    color: #fefae0;
+  }
+  
+  #project p {
+    font-size: 1.2em;
+    margin: 0.5em 0;
+  }
+  
+  /* Footer */
+  #footer {
+    background:#0f3a58;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  #footer p {
+    font-size: 0.9em;
+
+  }
+  footer a {
+    color: #c6ac8f; /* Change this color to whatever you like */
+    text-decoration: none; /* Removes underline if needed */
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+footer a:hover {
+  color: #fff; /* Hover color of your choice */
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
